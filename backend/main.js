@@ -17,7 +17,7 @@ app.use(bodyParser.json());
 
 mongoDb.connection();
 // mongoose.connect(
-//   "mongodb+srv://teacherbase:12345@cluster0-zt0bb.mongodb.net/teacherbaseDB",
+//   "mongodb+srv://teacherbase:yourPassword@cluster0-zt0bb.mongodb.net/teacherbaseDB",
 //   (err, db) => {
 //     if (!err) {
 //       console.log("Connected to db");
