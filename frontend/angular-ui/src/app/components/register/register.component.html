@@ -1,0 +1,23 @@
+<h3 style="text-align: center;">Register</h3>
+<hr>
+<form>
+  <div class="form-group">
+    <label>First Name</label>
+    <input type="text" [(ngModel)]="registerUser.firstName" class="form-control" name="firstName" placeholder="Enter First Name">
+  </div>
+  <div class="form-group">
+    <label>Last Name</label>
+    <input type="text" [(ngModel)]="registerUser.lastName" class="form-control" name="lastName" placeholder="Enter Last Name">
+  </div>
+  <div class="form-group">
+    <label>Email address</label>
+    <input type="email" [(ngModel)]="registerUser.email" class="form-control" name="email" placeholder="Enter email">
+  </div>
+  <div class="form-group">
+    <label>Password</label>
+    <input type="password" [(ngModel)]="registerUser.password" class="form-control" name="password" placeholder="Password">
+  </div>
+  <div style="text-align: center;">
+    <button type="submit" (click)="register(registerUser)" class="btn btn-primary" style="width: 150px;">Register</button>
+  </div>
+</form>
